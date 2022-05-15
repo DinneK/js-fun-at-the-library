@@ -216,7 +216,7 @@ describe("shelf.js", function() {
       var sciFiShelf = [dune, hyperion];
 
       assert.equal(searchShelf(sciFiShelf, "Hyperion"), true);
-      assert.equal(searchShelf(sciFiShelf, "The Fifth Season"), false);
+      assert.equal(searchShelf(sciFiShelf, "The Fifth Seaason"), false);
     });
 
     it("should tell us if a title is on a different shelf", function() {

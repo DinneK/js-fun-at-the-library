@@ -25,15 +25,15 @@ function listTitles(shelf) {
 
 
 function searchShelf(bookShelf, title) {
-  var available = null;
+  var available
   for (var i = 0; i < bookShelf.length; i++) {
-    if (bookShelf[i].title.includes(title)) {
-      return available = true;
-  } else {
-      available = false;
+    if (bookShelf[i].title === title) {
+      available = true
+    } else {
+      available = false
     }
   }
-  return available;
+  return available
 };
 
 
