@@ -31,7 +31,6 @@ function checkoutBook(library, book, genre) {
    return `You have now checked out ${book} from the ${library.name}`
  }
 }
- library.shelves[genre].splice(i, 1);
  return `Sorry, there are currently no copies of ${book} available at the ${library.name}`
 };
 
